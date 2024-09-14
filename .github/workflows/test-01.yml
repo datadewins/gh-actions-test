@@ -41,4 +41,4 @@ jobs:
         version: ${{ matrix.k8s_version }}
     - name: Get versions
       run: |
-        kubectl get version
+        kubectl version
