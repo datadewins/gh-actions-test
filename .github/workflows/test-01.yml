@@ -30,7 +30,7 @@ jobs:
 #          go-version: 1.23.1
 
       - name: Find all go compilers from toolcache
-        run: find /opt/hostedtoolcache/go -name 'go' -executable -print
+        run: scripts/ci-test.sh
 
 #  k3s-actions:
 #    runs-on: ubuntu-latest
